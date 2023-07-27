@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up reports and Test is getting ready ]]>
+    </line>
+    <line>
+      <![CDATA[Setting Done Test can be started ]]>
+    </line>
+    <line>
+      <![CDATA[Trying to start Browser and Getting application ready]]>
+    </line>
+    <line>
+      <![CDATA[Browser and Application is up and running]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to end]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed >>> Report Generated ]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to end]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed >>> Report Generated ]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-07-27T13:51:48 IST" name="Suite" finished-at="2023-07-27T13:52:00 IST" duration-ms="12346">
+    <groups>
+    </groups>
+    <test started-at="2023-07-27T13:51:48 IST" name="Test" finished-at="2023-07-27T13:52:00 IST" duration-ms="12346">
+      <class name="com.automation.testcases.LoginTestCRM">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:com.automation.testcases.LoginTestCRM@750e2b97]" started-at="2023-07-27T13:51:47 IST" name="setupSuite" finished-at="2023-07-27T13:51:48 IST" duration-ms="810" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up reports and Test is getting ready ]]>
+            </line>
+            <line>
+              <![CDATA[Setting Done Test can be started ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.testcases.LoginTestCRM@750e2b97]" started-at="2023-07-27T13:51:48 IST" name="setup" finished-at="2023-07-27T13:51:56 IST" duration-ms="8226" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to start Browser and Getting application ready]]>
+            </line>
+            <line>
+              <![CDATA[Browser and Application is up and running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginAPP()[pri:1, instance:com.automation.testcases.LoginTestCRM@750e2b97]" started-at="2023-07-27T13:51:56 IST" name="loginAPP" finished-at="2023-07-27T13:51:59 IST" duration-ms="3243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAPP -->
+        <test-method is-config="true" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.LoginTestCRM@750e2b97]" started-at="2023-07-27T13:51:59 IST" name="teardownMethod" finished-at="2023-07-27T13:52:00 IST" duration-ms="427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginAPP status=SUCCESS method=LoginTestCRM.loginAPP()[pri:1, instance:com.automation.testcases.LoginTestCRM@750e2b97] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to end]]>
+            </line>
+            <line>
+              <![CDATA[Test Completed >>> Report Generated ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+        <test-method signature="loginAPP1()[pri:2, instance:com.automation.testcases.LoginTestCRM@750e2b97]" started-at="2023-07-27T13:52:00 IST" name="loginAPP1" finished-at="2023-07-27T13:52:00 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAPP1 -->
+        <test-method is-config="true" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.LoginTestCRM@750e2b97]" started-at="2023-07-27T13:52:00 IST" name="teardownMethod" finished-at="2023-07-27T13:52:00 IST" duration-ms="181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginAPP1 status=SUCCESS method=LoginTestCRM.loginAPP1()[pri:2, instance:com.automation.testcases.LoginTestCRM@750e2b97] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to end]]>
+            </line>
+            <line>
+              <![CDATA[Test Completed >>> Report Generated ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automation.testcases.LoginTestCRM@750e2b97]" started-at="2023-07-27T13:52:00 IST" name="teardown" finished-at="2023-07-27T13:52:00 IST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automation.testcases.LoginTestCRM -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
