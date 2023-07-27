@@ -7,9 +7,11 @@ import org.openqa.selenium.support.FindBy;
 public class LoginPage {
 
 	WebDriver driver;
+	//commit
 	public LoginPage(WebDriver ldriver)
 	{
 		this.driver=ldriver;
+		
 	}
 	
 	@FindBy(xpath="//input[@name='email']") WebElement uname;
